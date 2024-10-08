@@ -83,7 +83,7 @@ where dea.continent is not null
 --order by 2,3
 
 ) 
-select * ,(Rollingpeoplevaccinated/Population)*100
+select * ,(Rollingpeoplevaccinated/Population)*100 AS PercentageVaccinated
  from PopvsVac
 
  --temptable
